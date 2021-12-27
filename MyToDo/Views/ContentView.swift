@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack(alignment: .bottomTrailing){
+            TasksView()
+            
+            SmallAddButton()
+                .padding()
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
+        .background(Color(hue: 0.685, saturation: 0.236, brightness: 0.894))
+        
     }
 }
 
