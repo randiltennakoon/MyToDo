@@ -13,7 +13,9 @@ struct TaskRow: View {
     
     var body: some View {
         HStack(spacing: 20) {
-            Image(systemName: <#T##String#>) 
+            Image(systemName: completed ? "checkmark.circle" : "circle")
+            
+            Text(task)
         }
     }
 }

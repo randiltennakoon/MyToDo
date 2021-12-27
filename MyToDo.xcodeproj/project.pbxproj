@@ -13,6 +13,7 @@
 		C0213D9F2779DA6900B13EE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0213D9E2779DA6900B13EE4 /* Preview Assets.xcassets */; };
 		C0213DA62779E30E00B13EE4 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0213DA52779E30E00B13EE4 /* TasksView.swift */; };
 		C05FECD52779E6C20031ECFF /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FECD42779E6C20031ECFF /* TaskRow.swift */; };
+		C05FECD72779EAB20031ECFF /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FECD62779EAB20031ECFF /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C0213D9E2779DA6900B13EE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C0213DA52779E30E00B13EE4 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 		C05FECD42779E6C20031ECFF /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		C05FECD62779EAB20031ECFF /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				C0213D992779DA6800B13EE4 /* ContentView.swift */,
 				C0213DA52779E30E00B13EE4 /* TasksView.swift */,
+				C05FECD62779EAB20031ECFF /* AddTaskView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0213D9A2779DA6800B13EE4 /* ContentView.swift in Sources */,
+				C05FECD72779EAB20031ECFF /* AddTaskView.swift in Sources */,
 				C0213DA62779E30E00B13EE4 /* TasksView.swift in Sources */,
 				C0213D982779DA6800B13EE4 /* MyToDoApp.swift in Sources */,
 				C05FECD52779E6C20031ECFF /* TaskRow.swift in Sources */,
